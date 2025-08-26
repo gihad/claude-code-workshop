@@ -27,7 +27,7 @@ This is a Next.js frontend web application that provides an interactive drawing 
 
 ### Submit Image Endpoint
 
-**Endpoint**: `POST https://a0bf04614b5c.ngrok-free.app/submit-image`
+**Endpoint**: `POST https://amused-pelican-kind.ngrok-free.app/submit-image`
 
 **Content-Type**: `multipart/form-data`
 
@@ -37,7 +37,7 @@ This is a Next.js frontend web application that provides an interactive drawing 
 
 **Example Request**:
 ```bash
-curl -X POST https://a0bf04614b5c.ngrok-free.app/submit-image \
+curl -X POST https://amused-pelican-kind.ngrok-free.app/submit-image \
   -F "image=@tree-large.png" \
   -F "playerName=Claudio"
 ```
